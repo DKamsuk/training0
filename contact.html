@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="styles/contact.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div>
+        <div class="menu">
+            <ul>
+                <li class="menu_item "><a href="index.html">Main page</a></li>
+                <li class="menu_item"><a href="about.html">About</a></li>
+                <li class="menu_item"><a href="gallery.html">Gallery</a></li>
+                <li class="menu_item"><a href="contact.html" class="page_active"><b>Contact</b></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact_form">
+        <form>
+            <div class="form_input">
+                <label for="first_name">First Name</label>
+                <input type="text" class="input_text" id="first_name" placeholder="Enter First Name">
+            </div>
+            <div class="form_input">
+                <label for="first_name">Last Name</label>
+                <input type="text" class="input_text" id="last_name" placeholder="Enter Last Name">
+            </div>
+            <div class="form_select">
+                <label for="country" id="country">Country</label>
+                <select class="select_country">
+                    <option>Choose country</option>
+                    <option>Australia</option>
+                    <option>Canada</option>
+                    <option>USA</option>
+                    <option>Ukraine</option>
+                </select>
+            </div>
+            <div class="form_textarea">
+                <label for="subject">Subject</label>
+                <textarea class="field_textarea" id="subject" rows="7"></textarea>
+
+            </div>
+            <div>
+                <button>
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

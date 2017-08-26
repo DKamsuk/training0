@@ -1,0 +1,94 @@
+
+body {
+    background: #d0d4d6;
+}
+
+.menu_item {
+    display: inline-block;
+    padding: 0 35px 0 0;
+    list-style: none;
+}
+
+a {
+    color: #aaaaab;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fab81b;
+}
+
+.wrapper {
+    width: 960px;
+    background: #fff;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: -15px 15px 25px rgba(0, 0, 0, 0.4);
+    box-sizing: inherit
+}
+
+.page_active {
+    color: #f9f9f9;
+}
+
+.info {
+    overflow: hidden;
+    width: 50%;
+
+}
+
+.about_me {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px;
+    overflow: hidden;
+    background: 0 ;
+}
+
+.photo {
+    height: auto;
+    width: 250px;
+    float: left;
+    margin: 0% 2% 0% 0%;
+
+}
+
+.hobby_item_img {
+    width: 160px;
+    height: auto;
+}
+
+.hobby_item {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    margin: 0 0 3% 0 ;
+    font-size: 25px;
+}
+.education{
+
+}
+.hobby_2{
+    float: left;
+}
+.history_2{
+    float: left;
+}
+.photo_2{
+    height: auto;
+    width:  250px;
+    float: right;
+    margin: 0 0 0 2%;
+}
+.hobby{
+    text-align: center;
+}
+.menu{
+    background-color: rgba(39,39,41,.90);
+    border: 1px solid green;
+    display: block;
+}
+.menu_2{
+}
+
