@@ -7,6 +7,7 @@ body {
     display: inline-block;
     padding: 0 35px 0 0;
     list-style: none;
+
 }
 
 a {
@@ -25,7 +26,7 @@ a:hover {
     margin: 0 auto;
     border-radius: 2px;
     box-shadow: -15px 15px 25px rgba(0, 0, 0, 0.4);
-    box-sizing: inherit
+    font-size: 20px;
 }
 
 .page_active {
@@ -41,9 +42,8 @@ a:hover {
 .about_me {
     display: inline-block;
     vertical-align: top;
-    padding: 10px 20px;
     overflow: hidden;
-    background: 0 ;
+    background: 0;
 }
 
 .photo {
@@ -63,32 +63,58 @@ a:hover {
     display: inline-block;
     width: 30%;
     vertical-align: middle;
-    margin: 0 0 3% 0 ;
+    margin: 0 0 3% 0;
     font-size: 25px;
 }
-.education{
+
+.education {
 
 }
-.hobby_2{
+
+.hobby_2 {
     float: left;
 }
-.history_2{
+
+.history_2 {
     float: left;
 }
-.photo_2{
+
+.photo_2 {
     height: auto;
-    width:  250px;
+    width: 250px;
     float: right;
     margin: 0 0 0 2%;
 }
-.hobby{
+
+.hobby {
     text-align: center;
 }
-.menu{
-    background-color: rgba(39,39,41,.90);
-    border: 1px solid green;
+
+.menu {
+    background-color: rgba(39, 39, 41, .90);
     display: block;
-}
-.menu_2{
+    font-size: 14px;
+    font-family: "robotocondensed", "Arial Narrow", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
+a.page_active:after {
+    content: "";
+    position: absolute;
+    border: 1px solid #fab81b;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.page_active {
+    content: "";
+    position: relative;
+    line-height: 66px;
+    display: block;
+}
+
+.ul-control {
+    margin: 0;
+}
