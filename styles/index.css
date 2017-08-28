@@ -30,8 +30,13 @@ a:hover {
     font-size: 20px;
 }
 
+.page_active:hover {
+    color: #ffffff;
+
+}
+
 .page_active {
-    color: #f9f9f9;
+    color: #FFFFFF;
 }
 
 .info {
@@ -66,14 +71,6 @@ a:hover {
     vertical-align: middle;
     margin: 0 0 3% 0;
     font-size: 25px;
-}
-
-.education {
-    margin: 15px;
-}
-
-.hobby_2 {
-    float: left;
 }
 
 .history_2 {
@@ -132,8 +129,10 @@ a.page_active:after {
     margin: 0 auto;
 }
 
-.content-wrapper {
-    padding: 15px;
+.img-gallery {
+    margin: 15px;
 }
 
-.ele
+.content-wrapper {
+    margin: 15px;
+}
