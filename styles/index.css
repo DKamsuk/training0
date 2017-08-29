@@ -129,10 +129,31 @@ a.page_active:after {
     margin: 0 auto;
 }
 
-.img-gallery {
-    margin: 15px;
-}
-
 .content-wrapper {
     margin: 15px;
 }
+
+.textarea-test {
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 150px;
+}
+
+.h3-div {
+    display: inline-block;
+    background: #282828;
+}
+
+.h3-class {
+    width: 35%;
+    font-family: 'Lato', sans-serif !important;;
+    vertical-align: top;
+    line-height: 2em;
+    font-size: 18px;
+    color: #fff;
+}
+
