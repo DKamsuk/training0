@@ -145,16 +145,37 @@ a.page_active:after {
 }
 
 .h3-div {
+    color: #FFFFFF;
     display: inline-block;
-    background: #282828;
+    vertical-align: top;
 }
 
-.h3-class {
-    width: 35%;
-    font-family: 'Lato', sans-serif !important;;
-    vertical-align: top;
+.footer-container {
+    background: #282828;
+    padding: 40px 40px 40px 40px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.h3-cllas {
+    color: #908F8F;
+    font-size: 14px;
     line-height: 2em;
-    font-size: 18px;
-    color: #fff;
+}
+
+.more-adout {
+    width: 38%;
+
+}
+
+.keep-connected {
+    width: 23%;
+    margin: 0 8%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tech {
+    margin-bottom: 32px;
 }
 
